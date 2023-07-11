@@ -1,0 +1,76 @@
+.main-container{
+    background-image: url("https://res.cloudinary.com/dmmgoh7jg/image/upload/v1688972938/pexels-felix-mittermeier-956981_y2xbrd.jpg");
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+    display:flex;
+    align-items: center;
+}
+.container{
+    display:flex;
+    align-items:center;
+    background-color:#ffffff;
+    width:90%;
+    height:80%;
+    padding:20px;
+    margin:auto;
+    border-radius:15px;
+}
+.form-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:80%;
+    width:40%;
+    /* background-color:bisque; */
+    padding:20px;
+    margin-left:25px;
+    border: 5px solid yellowgreen;
+    border-radius: 6px;;
+
+}
+
+.heading{
+    font-family:roboto;
+    font-weight:bolder;
+    font-size:28px;
+    text-align: center;
+}
+
+.label{
+    font-family:roboto;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:0px;
+}
+.input{
+    height:40px;
+    border-radius:6px;
+    font-family:roboto;
+    font-size:15px;
+    background-color: transparent;
+    border:2px solid rgb(228, 197, 21);
+    outline:3px solid blanchedalmond;
+    padding-left:8px;
+}
+.button{
+    font-family:roboto;
+    font-weight:bold;
+    font-size:15px;
+    color:#ffffff;
+    background-color:rgb(248, 7, 151);
+    border:none;
+    padding:10px;
+    border-radius: 4px;
+    margin-top:15px;
+}
+.image{
+    width:60%;
+    height:100%;
+}
+.error{
+    font-family:roboto;
+    font-weight:bold;
+    font-size:13px;
+    color:red;
+}
